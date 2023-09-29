@@ -13,7 +13,8 @@
     background-color:red;
     padding: 7px 7px;
     margin-right: 10px;
-    width:fit-content
+    width:fit-content;
+    height: 40px;
 }
 nav img{
     display:left;
