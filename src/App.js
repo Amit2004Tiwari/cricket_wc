@@ -1,14 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
-import Navbar from './components/navbar/navbar';
-
+import {BrowserRouter, Routes,Route} from 'react-router-dom';
+import Matches from './components/Matches/Matches.js';
+import Standings from './components/Standings/Standings.js';
+import Homepage from './components/Homepage/Homepage';
+import Login from './login/login';
+import Register from './register/register';
 function App() {
+  
   return (
+
 <>
-<div className='tiga'>
-<Navbar/>
-  </div>
-</>  );
+
+<Routes>
+
+    
+    <Route path = '/' element = {<Homepage/>}/>
+    <Route path = 'Standings' element = {<Standings/>}/>
+    <Route path = 'Matches' element = {<Matches/>}/>
+    <Route path = 'login' element = {<Login/>}/>
+    <Route path = 'Register' element = {<Register/>}/>
+    
+  </Routes>
+
+
+
+
+ 
+
+</>
+ );
 }
 
 export default App;

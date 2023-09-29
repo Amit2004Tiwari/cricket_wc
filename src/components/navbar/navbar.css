@@ -1,0 +1,26 @@
+.logo img{
+    height: 40px;
+    width: 40px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.navbar{
+    background-color: bisque;
+    height: 40px;
+}
+.bhuo{
+    border-radius: 15%;
+    background-color:red;
+    padding: 7px 7px;
+    margin-right: 10px;
+    width:fit-content
+}
+nav img{
+    display:left;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    margin-left: 20px;
+}
+
+    

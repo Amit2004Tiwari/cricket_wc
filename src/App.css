@@ -1,23 +1,22 @@
 .tiga{
-  background-color:pink;
-  height: 95px;
+  background-color: darkmagenta;
+  height: 65px;
   font-size: x-large;
 }
 .logo{
-  
+  margin-top: -6.5px;
   margin-left: 10px;
-  
 }
 .logo img{
-  height: 80px;
-  width: 80px;
-  border-radius: 24px;
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
 }
 .mx{
   margin-left: 34px;
 }
 .pogo:hover{
-  color: whitesmoke;
+  color: blueviolet;
   font-weight: 500;
   text-decoration: underline;
 }
