@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './register.css';
+import Navbar from '../components/navbar/navbar';
 
 class Register extends Component {
   constructor(props) {
@@ -22,7 +23,8 @@ class Register extends Component {
   };
 
   render() {
-    return (
+    return (<>
+        <Navbar/>
       <div className="register-container">
         <h2>Register</h2>
         <form onSubmit={this.handleSubmit}>
@@ -75,6 +77,7 @@ class Register extends Component {
           </div>
         </form>
       </div>
+      </>
     );
   }
 }

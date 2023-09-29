@@ -5,6 +5,7 @@ import Standings from './components/Standings/Standings.js';
 import Homepage from './components/Homepage/Homepage';
 import Login from './login/login';
 import Register from './register/register';
+import Venues from './components/Venues/Venues';
 function App() {
   
   return (
@@ -19,6 +20,7 @@ function App() {
     <Route path = 'Matches' element = {<Matches/>}/>
     <Route path = 'login' element = {<Login/>}/>
     <Route path = 'Register' element = {<Register/>}/>
+    <Route path = 'Venues' element = {<Venues/>}/>
     
   </Routes>
 

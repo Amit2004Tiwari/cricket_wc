@@ -29,6 +29,9 @@ export default function navbar() {
           <li className="nav-item">
             <a className="nav-link mx pogo" aria-current="page" href="/Standings">Standings</a>
           </li>
+          <li className="nav-item">
+            <a className="nav-link mx pogo" aria-current="page" href="/Venues">Venues</a>
+          </li>
          
         </ul>
         <a href= 'Login'>

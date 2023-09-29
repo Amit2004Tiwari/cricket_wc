@@ -1,6 +1,6 @@
-// LoginPage.js
 import React, { Component } from 'react';
 import './login.css'
+import Navbar from '../components/navbar/navbar';
 class Login extends Component {
   constructor(props) {
     super(props);
@@ -21,6 +21,8 @@ class Login extends Component {
 
   render() {
     return (
+      <>
+      <Navbar/>
       <div className="login-container">
         <h2>Login</h2>
         <form onSubmit={this.handleSubmit}>
@@ -51,6 +53,7 @@ class Login extends Component {
           </div>
         </form>
       </div>
+      </>
     );
   }
 }
