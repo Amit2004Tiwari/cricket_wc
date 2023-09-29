@@ -15,7 +15,7 @@ const Matches = () => {
     <>
     <Navbar/>
     <div className="fixtures-container">
-      <h1>Cricket Match Fixtures</h1>
+      <h1>Fixtures</h1>
       <table className="fixtures-table">
         <thead>
           <tr>
