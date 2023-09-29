@@ -1,4 +1,4 @@
-.standings-container {
+.fixtures-container {
     max-width: 800px;
     margin: 0 auto;
     padding: 30px;
@@ -11,32 +11,31 @@
     margin-bottom: 20px;
   }
   
-  .standings-table {
+  .fixtures-table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
   }
   
-  .standings-table th,
-  .standings-table td {
+  .fixtures-table th,
+  .fixtures-table td {
     padding: 15px;
-    border: 1px solid #ddd;
+    border: 1px solid #ccc;
     text-align: center;
   }
   
-  .standings-table th {
+  .fixtures-table th {
     background-color: grey;
     color: #fff;
     font-weight: bold;
   }
   
-  .standings-table tbody tr:nth-child(even) {
-    background-color: #f2f2f2;
+  .fixtures-table tbody tr:nth-child(even) {
+    background-color: #f0f0f0;
   }
   
-  .standings-table tbody tr:hover {
+  .fixtures-table tbody tr:hover {
     background-color: #e0e0e0;
     transition: background-color 0.2s;
   }
