@@ -15,7 +15,7 @@ const StandingsPage = () => {
   return (<>
     <Navbar/>
     <div className="standings-container">
-      <h1>Standings</h1>
+      <h1 className='dig'>Standings</h1>
       
       <table className="standings-table">
         <thead>

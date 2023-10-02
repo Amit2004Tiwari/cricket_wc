@@ -1,4 +1,3 @@
-// VenuesPage.js
 import React from 'react';
 import './Venues.css';
 import Navbar from '../navbar/navbar'; 

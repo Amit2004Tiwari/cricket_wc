@@ -1,4 +1,0 @@
-Web Page Layout and Linking
-
-Homepage:-
-It will contain the main logo,Navbar,Link to other official cricket websites.
